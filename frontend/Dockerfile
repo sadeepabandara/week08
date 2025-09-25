@@ -1,6 +1,6 @@
 # week08/frontend/Dockerfile
 
-FROM nginx:alpine
+FROM ghcr.io/nginxinc/nginx-unprivileged:alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
