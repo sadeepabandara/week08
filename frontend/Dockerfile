@@ -1,6 +1,6 @@
 # week08/frontend/Dockerfile
 
-FROM nginx:alpine
+FROM mcr.microsoft.com/oss/nginx/nginx:1.21-alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
